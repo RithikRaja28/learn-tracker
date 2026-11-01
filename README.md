@@ -1,4 +1,4 @@
-# Learn Tracker — 6-month switch plan
+# Learn Tracker 
 
 A responsive single-page study tracker for a 26-week software-engineering job switch plan. It includes daily tasks, pattern-first DSA, a 150-item problem bank, backend/cloud milestones, weekly reflections, and recovery for missed days.
 
