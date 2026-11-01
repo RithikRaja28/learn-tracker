@@ -55,10 +55,12 @@ import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/f
 
 // Paste your Firebase web app config here (see README). Leave blank for local demo mode.
 const firebaseConfig = {
-  apiKey: "PASTE_API_KEY",
-  authDomain: "PASTE_PROJECT.firebaseapp.com",
-  projectId: "PASTE_PROJECT_ID",
-  appId: "PASTE_APP_ID"
+  apiKey: "AIzaSyCDCHm9W81LzWK9e__QQwE_boU7nvrdzVU",
+  authDomain: "learn-tracker-2d61d.firebaseapp.com",
+  projectId: "learn-tracker-2d61d",
+  storageBucket: "learn-tracker-2d61d.firebasestorage.app",
+  messagingSenderId: "185689745790",
+  appId: "1:185689745790:web:ed7e5ae46000bb2c366b2f"
 };
 const configured = firebaseConfig.apiKey !== "PASTE_API_KEY" && firebaseConfig.projectId !== "PASTE_PROJECT_ID";
 let auth, db, user=null, unsubscribe=null;
